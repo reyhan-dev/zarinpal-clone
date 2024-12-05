@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="zarin.css" />
+    <title>Zarinpal</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="hed">
+      <h1>.Today's Zarinpal is without borders</h1>
+      <div class="button">
+        <div class="buttonsvg">
+          <svg
+            width="30px"
+            height="30px"
+            viewBox="-3 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g id="icomoon-ignore"></g>
+            <path
+              d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+              fill="#fff"
+            ></path>
+            <path
+              d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+              fill="#fff"
+            ></path>
+          </svg>
+        </div>
+        <p>Read more</p>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="hamber">
+        <svg
+          width="30px"
+          height="30px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.75 7C20.75 7.41421 20.4142 7.75 20 7.75L4 7.75C3.58579 7.75 3.25 7.41421 3.25 7C3.25 6.58579 3.58579 6.25 4 6.25L20 6.25C20.4142 6.25 20.75 6.58579 20.75 7Z"
+            fill="#1C274C"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.75 12C20.75 12.4142 20.4142 12.75 20 12.75L4 12.75C3.58579 12.75 3.25 12.4142 3.25 12C3.25 11.5858 3.58579 11.25 4 11.25L20 11.25C20.4142 11.25 20.75 11.5858 20.75 12Z"
+            fill="#1C274C"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M20.75 17C20.75 17.4142 20.4142 17.75 20 17.75L4 17.75C3.58579 17.75 3.25 17.4142 3.25 17C3.25 16.5858 3.58579 16.25 4 16.25L20 16.25C20.4142 16.25 20.75 16.5858 20.75 17Z"
+            fill="#1C274C"
+          />
+        </svg>
+      </div>
+      <div class="nav">
+        <div class="ul">
+          <div class="but">
+            <p>My goldenpal</p>
+          </div>
+          <div class="down">
+            <svg
+              width="22px"
+              height="22px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 10L12 15L17 10"
+                stroke="#000000"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <li>more</li>
+          </div>
+          <li>contactuus</li>
+          <li>evelopers</li>
+          <li>Tariffs</li>
+          <div class="down">
+            <svg
+              width="22px"
+              height="22px"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 10L12 15L17 10"
+                stroke="#000000"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <li>Products</li>
+          </div>
+        </div>
+      </div>
+      <div class="zarin">
+        <h1>زرین پال</h1>
+        <img
+          width="30"
+          height="30"
+          src="data:image/png;base64,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"
+          alt="image test"
+        />
+      </div>
+    </div>
+    <div class="section">
+      <div class="formm"></div>
+        <div class="side">
+          <div class="text">
+            <h1>More than 14 years</h1>
+            <h1>The safe choice of online businesses</h1>
+            <p>
+              Zarinpal,the country's first pioneer payment assistant,has
+              prodided various <br />
+              services in the field of electronic payment for businesses by
+              using new style <br />
+              and standards in providing internet payment gateway services. With
+              theaim of <br />
+              playing a constructive role in increasing the share of e-commerce
+              in the <br />
+              national gross product and helping the growth and development of
+              businesses.
+            </p>
+          </div>
+          <div class="dokme">
+            <div class="firstbutton">
+              <button class="firstbutton">logon</button>
+            </div>
+            <div class="secondbutton">
+              <button class="secondbutton">registration</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header">
+        <div class="left">
+          <div class="textone">
+            <p>Internet payment gateway</p>
+            <h1>Engineered for growth and more sales</h1>
+            <p>
+              Zarinpal payment portal by connecting to various and reliable
+              banking portals (PSPs) <br />
+              at the same time transfers users to the fastest and most reliable
+              banking portal and <br />
+              increase the percentahe of successful trasactions due to its
+              intelligent routing <br />capability
+            </p>
+          </div>
+          <div class="buttonsecond">
+            <div class="thirdbutton">
+              <button class="flash">
+                <svg
+                  width="22px"
+                  height="22px"
+                  viewBox="-3 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+                Learn more
+              </button>
+            </div>
+            <div class="fourthbutton">
+              <button class="gold">Making a payment gateway</button>
+            </div>
+          </div>
+        </div>
+        <div class="right"></div>
+      </div>
+      <div class="main">
+        <div class="leftmain"></div>
+        <div class="rightmain">
+          <div class="textone">
+            <p>Golden link</p>
+            <h1>Payment in socialnetworks</h1>
+            <p>
+              By managing the sales process in a smart and fast way. Zarinlink
+              increases the sales <br />
+              of produkts and services through social nrtworks or websites
+            </p>
+          </div>
+          <div class="buttonsecond">
+            <div class="thirdbutton">
+              <button class="flash">
+                <svg
+                  width="22px"
+                  height="22px"
+                  viewBox="-3 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+                Learn more
+              </button>
+            </div>
+            <div class="fourthbutton">
+              <button class="gold">Construction of Zarinlink</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="your">
+      <div class="leftyour">
+        <div class="textone">
+          <p>Gold card</p>
+          <h1>The most golden bank card</h1>
+          <p>
+            Zarinkart is a bank card that is a member of the shatab network and
+            connected to a bank <br />
+            account which has all the features and facilities of a full-fledged
+            bank account <br />
+            zarincart allows its users to benefit from lower  <br>frees normal days
+            and free fees on golden tuesdays of Zarinpal
+          </p>
+        </div>
+<div class="yourbut">
+  <div class="oneyour">
+    <button class="small">
+       <svg
+                  width="22px"
+                  height="22px"
+                  viewBox="-3 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+                Learn more
+    </button>
+  </div>
+  <div class="twoyour">
+    <button class="big"> Gold card request</button>
+  </div>
+</div>
+      </div>
+      <div class="rightyour">
+        <h1>زرین پال</h1>
+      </div>
+    </div>
+    <div class="share">
+      <div class="leftshare"></div>
+      <div class="rightshare">
+        <div class="textone">
+          <p>Sharing</p>
+          <h1>Subscription payment gateway</h1>
+          <p>Saring the best method for the financial of partnership businesses,
+            <br>through which the income from the sale  of products services 
+            is divided into fixed <br>
+            or variable shares among business partnes <br> and is deposited into 
+            each person's account separtately. <hr>
+          </p>
+        </div>
+        <div class="sharebutton">
+          <div class="firstshare">
+               <button class="small">
+       <svg
+                  width="22px"
+                  height="22px"
+                  viewBox="-3 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+                Learn more
+    </button>
+          </div>
+          <div class="secondshare">
+            <button class="big">Request to enable sharing</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="plus">
+  <div class="leftplus">
+    <div class="textone">
+    <p>Zarin Plus</p>
+    <h1>Smart profitability tool</h1>
+    <p>Zarinplus, a produkt of Zarinpal,has provided an opportunity 
+      for businesses of any size <br>
+      and job category to develop and expand their business in the best 
+      way by having a 
+      <br>
+      powerful tool for customer loyalty and increasing the sale of their produkt 
+      owen thw best <br>
+      store in the region <hr>
+    </p>
+    </div>
+    <div class="plusbut">
+    <div class="smallplus">
+      <button class="small">
+         <svg
+                  width="22px"
+                  height="22px"
+                  viewBox="-3 0 32 32"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <g id="icomoon-ignore"></g>
+                  <path
+                    d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z"
+                    fill="#000000"
+                  ></path>
+                  <path
+                    d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z"
+                    fill="#000000"
+                  ></path>
+                </svg>
+                Learn more
+      </button>
+       </div>
+    <div class="bigplus">
+      <button class="big">join Zarinplus</button>
+    </div>
+    </div>
+  </div>
+  <div class="rightplus">
+  </div>
+</div>
+</div>
+<div class="item">
+  <div class="leftitem">
+    <div class="rowone">
+      <div class="firstrow">
+        <div class="heditem">
+          <h1>Smart routing</h1>
+<div class="svgitem">
+  
+<svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6.96 4.13a.75.75 0 0 1 .369-1.264l4.767-1.045a.75.75 0 0 1 .893.893l-1.046 4.767a.75.75 0 0 1-1.262.37L6.959 4.129zm6.737 18.465a3.1 3.1 0 1 0 0-6.2 3.1 3.1 0 0 0 0 6.2zM7.407 7.403a1 1 0 0 0-1.414 0L3.69 9.705a4.246 4.246 0 0 0 0 6.005l.004.003a4.253 4.253 0 0 0 6.01-.003l6.005-6.005c.88-.88 2.305-.88 3.185-.002.878.876.879 2.298.003 3.176l-.002.001-1.77 1.77a1 1 0 0 0 1.414 1.415l1.77-1.77.004-.004a4.246 4.246 0 0 0-.007-6.004 4.253 4.253 0 0 0-6.01.003L8.29 14.295c-.879.88-2.304.88-3.185 0a2.246 2.246 0 0 1 0-3.175l2.302-2.303a1 1 0 0 0 0-1.414z" fill="darkblue"/></svg>
+</div>
+        </div>
+        <p>The dufferent standards of zarinpal in 
+          different time <br>
+          farmes lead users ti the best payment portal with <br>
+          the highest number of successful transactions
+        </p>
+      </div>
+      <div class="secondrow">
+        <div class="heditem">
+          <h1>Payment guarantee</h1>
+          <div class="svgitem">
+            <svg fill="darkblue" height="35px" width="35px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<g>
+	<g>
+		<path d="M467.478,66.783V33.391h-33.391V0H77.913v33.391H44.522v33.391H11.13v244.87h33.391v66.783h33.391v33.391h33.391v33.391
+			h33.391v33.391h66.783V512h89.043v-33.391h66.783v-33.391h33.391v-33.391h33.391v-33.391h33.391v-66.783h33.391V66.783H467.478z
+			 M400.696,189.217h-33.391v33.391h-33.391V256h-33.391v33.391H267.13v33.391h-33.391v33.391h-44.522v-33.391h-33.391v-33.391
+			h-33.391v-66.783h66.783V256h44.522v-33.391h33.391v-33.391h33.391v-33.391h33.391v-33.391h66.783V189.217z"/>
+	</g>
+</g>
+</svg>
+
+          </div>
+        </div>
+        <p>
+Zarinpal payment portal offers business <br>
+customer an easy.fast and secure online payment <br>
+experience.
+        </p>
+      </div>
+    </div>
+    <div class="rowtwo">
+      <div style="border-bottom: 0px;"  class="firstrow">
+        <div class="heditem">
+          <h1>payment security</h1>
+          <div class="svgitem">
+            <svg width="35px" height="35px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    
+    <title>headphone</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+
+</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-464.000000, -515.000000)" fill="darkblue">
+            <path d="M494,539 C494,540.104 493.104,541 492,541 L491.056,541 C491.649,539.338 492,537.481 492,535.5 C492,533.907 491.766,532.398 491.372,531 L492,531 C493.104,531 494,531.896 494,533 L494,539 L494,539 Z M488.873,541 L488,541 C486.896,541 486,540.104 486,539 L486,533 C486,531.896 486.896,531 488,531 L489.258,531 C489.723,532.386 490,533.897 490,535.5 C490,537.5 489.578,539.363 488.873,541 L488.873,541 Z M468.629,531 C468.234,532.398 468,533.907 468,535.5 C468,537.481 468.352,539.338 468.944,541 L468,541 C466.896,541 466,540.104 466,539 L466,533 C466,531.896 466.896,531 468,531 L468.629,531 L468.629,531 Z M470.742,531 L472,531 C473.104,531 474,531.896 474,533 L474,539 C474,540.104 473.104,541 472,541 L471.127,541 C470.422,539.363 470,537.5 470,535.5 C470,533.897 470.277,532.386 470.742,531 L470.742,531 Z M493.938,529.521 C493.966,529.183 494,528.846 494,528.5 C494,521.044 487.732,515 480,515 C472.268,515 466,521.044 466,528.5 C466,528.846 466.034,529.183 466.063,529.521 C464.838,530.205 464,531.498 464,533 L464,539 C464,541.209 465.791,543 468,543 C468,543 472.004,543.006 472,543 C474.125,542.905 476,541.148 476,539 L476,533 C476,530.791 474.209,529 472,529 L468,529 C468,522.337 473.373,517 480,517 C486.628,517 492,521.867 492,529 L488,529 C485.791,529 484,530.791 484,533 L484,539 C484,541.148 485.875,542.905 488,543 C487.996,543.006 490,543 490,543 L490,546 C490,546.553 490.447,547 491,547 C491.553,547 492,546.553 492,546 L492,543 C494.209,543 496,541.209 496,539 L496,533 C496,531.498 495.162,530.205 493.938,529.521 L493.938,529.521 Z" id="headphone" sketch:type="MSShapeGroup">
+
+</path>
+        </g>
+    </g>
+</svg>
+          </div>
+        </div>
+        <p>Zarinpal's secure portal is a guarantee for the <br>
+        security of people'sbank information during their <br>
+        online payments.
+      </p>
+      </div>
+      <div  style="border-bottom: 0px;" class="secondrow">
+      <div class="heditem">
+        <h1>Support <span>24/7</span></h1>
+        <div class="svgitem">
+          <svg width="35px" height="35px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    
+    <title>headphone</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+
+</defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-464.000000, -515.000000)" fill="darkblue">
+            <path d="M494,539 C494,540.104 493.104,541 492,541 L491.056,541 C491.649,539.338 492,537.481 492,535.5 C492,533.907 491.766,532.398 491.372,531 L492,531 C493.104,531 494,531.896 494,533 L494,539 L494,539 Z M488.873,541 L488,541 C486.896,541 486,540.104 486,539 L486,533 C486,531.896 486.896,531 488,531 L489.258,531 C489.723,532.386 490,533.897 490,535.5 C490,537.5 489.578,539.363 488.873,541 L488.873,541 Z M468.629,531 C468.234,532.398 468,533.907 468,535.5 C468,537.481 468.352,539.338 468.944,541 L468,541 C466.896,541 466,540.104 466,539 L466,533 C466,531.896 466.896,531 468,531 L468.629,531 L468.629,531 Z M470.742,531 L472,531 C473.104,531 474,531.896 474,533 L474,539 C474,540.104 473.104,541 472,541 L471.127,541 C470.422,539.363 470,537.5 470,535.5 C470,533.897 470.277,532.386 470.742,531 L470.742,531 Z M493.938,529.521 C493.966,529.183 494,528.846 494,528.5 C494,521.044 487.732,515 480,515 C472.268,515 466,521.044 466,528.5 C466,528.846 466.034,529.183 466.063,529.521 C464.838,530.205 464,531.498 464,533 L464,539 C464,541.209 465.791,543 468,543 C468,543 472.004,543.006 472,543 C474.125,542.905 476,541.148 476,539 L476,533 C476,530.791 474.209,529 472,529 L468,529 C468,522.337 473.373,517 480,517 C486.628,517 492,521.867 492,529 L488,529 C485.791,529 484,530.791 484,533 L484,539 C484,541.148 485.875,542.905 488,543 C487.996,543.006 490,543 490,543 L490,546 C490,546.553 490.447,547 491,547 C491.553,547 492,546.553 492,546 L492,543 C494.209,543 496,541.209 496,539 L496,533 C496,531.498 495.162,530.205 493.938,529.521 L493.938,529.521 Z" id="headphone" sketch:type="MSShapeGroup">
+
+</path>
+        </g>
+    </g>
+</svg>
+        </div>
+      </div>
+      <p>Seven days a week with24-hour support from <br>
+      Zarinpal,we are ready to answer and guide user
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="rightitem">
+    <h1>Features of Zarinpal <br> paymentgateway</h1>
+    <p>Zarinpal internet payment portal makes it possible to  <br>easily manage 
+      financial transactions on the web, and  <br>by implementing and
+      implementing smart solutionss, <br> it increases the percentage of
+       successful transactions <br> and more profitability.
+    </p>
+  </div>
+</div>
+<div class="longrow">
+<div class="long">
+  <h1>Join Zarinpal's one million family</h1>
+  <p>A free month,the gift of Zarinpal membership to you</p>
+  <button class="longbut">get started</button>
+</div>
+</div>
+<div class="longrow">
+  <div class="pink">
+    <div class="leftpink">
+      <svg width="22px" height="22px" viewBox="-3 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="icomoon-ignore">
+</g>
+<path d="M13.114 2.887c-7.243 0-13.114 5.871-13.114 13.113s5.871 13.113 13.114 13.113c7.242 0 13.112-5.871 13.112-13.113s-5.87-13.113-13.112-13.113zM13.114 28.064c-6.653 0-12.065-5.412-12.065-12.064s5.412-12.063 12.065-12.063c6.652 0 12.063 5.412 12.063 12.063s-5.411 12.064-12.063 12.064z" fill="#000000">
+
+</path>
+<path d="M12.318 10.363l-0.742-0.742-6.379 6.379 6.379 6.379 0.742-0.742-5.113-5.113h12.726v-1.049h-12.726z" fill="#000000">
+
+</path>
+</svg>
+      <h1>Request support</h1>
+    </div>
+    <div class="rightpink">
+      <p>Support24hours a day ,7daysa</p>
+      <p class="week">Week</p>
+      <p>Acceptor support</p>
+      <p class="noghte">:</p>
+      <p><span style="color: darkblue;">021-41239</span></p>  
+       <p>Buyer support: <span style="color:darkblue;">021-45628000</span></p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="leftfoot">
+    <h1>Zarinpal on social networks</h1>
+    <div class="footersvg">
+      
+<svg class="aparat" fill="black" width="22px" height="22px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M12.001 1.594c-9.27-.003-13.913 11.203-7.36 17.758a10.403 10.403 0 0 0 17.76-7.355c0-5.744-4.655-10.401-10.4-10.403zM6.11 6.783c.501-2.598 3.893-3.294 5.376-1.103 1.483 2.19-.422 5.082-3.02 4.582A2.97 2.97 0 0 1 6.11 6.783zm4.322 8.988c-.504 2.597-3.897 3.288-5.377 1.096-1.48-2.192.427-5.08 3.025-4.579a2.97 2.97 0 0 1 2.352 3.483zm1.26-2.405c-1.152-.223-1.462-1.727-.491-2.387.97-.66 2.256.18 2.04 1.334a1.32 1.32 0 0 1-1.548 1.053zm6.198 3.838c-.501 2.598-3.893 3.293-5.376 1.103-1.484-2.191.421-5.082 3.02-4.583a2.97 2.97 0 0 1 2.356 3.48zm-1.967-5.502c-2.598-.501-3.293-3.896-1.102-5.38 2.19-1.483 5.081.422 4.582 3.02a2.97 2.97 0 0 1-3.48 2.36zM13.59 23.264l2.264.61a3.715 3.715 0 0 0 4.543-2.636l.64-2.402a11.383 11.383 0 0 1-7.448 4.428zm7.643-19.665L18.87 2.97a11.376 11.376 0 0 1 4.354 7.62l.65-2.459A3.715 3.715 0 0 0 21.231 3.6zM.672 13.809l-.541 2.04a3.715 3.715 0 0 0 2.636 4.543l2.107.562a11.38 11.38 0 0 1-4.203-7.145zM10.357.702 8.15.126a3.715 3.715 0 0 0-4.547 2.637l-.551 2.082A11.376 11.376 0 0 1 10.358.702z"/>
+</svg>
+
+<svg class="aparat" width="22px" height="22px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><style>.b{fill:#000000;}.c{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><circle class="b" cx="15.64" cy="13.46" r=".75"/><line class="c" x1="15.64" x2="15.64" y1="16.93" y2="31.91"/><path class="c" d="m33.11 31.91v-9.61a5.83 5.83 0 0 0-5.82-5.82 5.83 5.83 0 0 0-5.83 5.82v9.61"/><line class="c" x1="21.46" x2="21.46" y1="22.3" y2="16.93"/><path class="c" d="m40.5 5.5h-33a2 2 0 0 0-2 2v33a2 2 0 0 0 2 2h33a2 2 0 0 0 2-2v-33a2 2 0 0 0-2-2z"/>
+</svg>
+
+<svg class="aparat" width="22px" height="22px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-1" d="M40.83,8.48c1.14,0,2,1,1.54,2.86l-5.58,26.3c-.39,1.87-1.52,2.32-3.08,1.45L20.4,29.26a.4.4,0,0,1,0-.65L35.77,14.73c.7-.62-.15-.92-1.07-.36L15.41,26.54a.46.46,0,0,1-.4.05L6.82,24C5,23.47,5,22.22,7.23,21.33L40,8.69a2.16,2.16,0,0,1,.83-.21Z"/></svg>
+    
+<svg  class="aparat" width="22px" height="22px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style></defs><path class="cls-1" d="M38.74,16.55v1c0,10.07-7.64,21.61-21.62,21.61A21.14,21.14,0,0,1,5.5,35.71a12.22,12.22,0,0,0,1.81.11,15.25,15.25,0,0,0,9.44-3.24,7.56,7.56,0,0,1-7.1-5.29,6.9,6.9,0,0,0,1.44.15,7.53,7.53,0,0,0,2-.27A7.57,7.57,0,0,1,7,19.72v-.1a7.42,7.42,0,0,0,3.44.94A7.54,7.54,0,0,1,8.05,10.5a21.58,21.58,0,0,0,15.68,7.94,6.38,6.38,0,0,1-.21-1.74,7.55,7.55,0,0,1,13.17-5.31,15.59,15.59,0,0,0,4.83-1.85,7.65,7.65,0,0,1-3.39,4.27,15.87,15.87,0,0,0,4.37-1.26,15.56,15.56,0,0,1-3.76,4Z"/>
+</svg>
+<svg class="aparat"  width="22px" height="22px" viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 5H9.5C7.29086 5 5.5 6.79086 5.5 9V15C5.5 17.2091 7.29086 19 9.5 19H15.5C17.7091 19 19.5 17.2091 19.5 15V9C19.5 6.79086 17.7091 5 15.5 5Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 15C10.8431 15 9.5 13.6569 9.5 12C9.5 10.3431 10.8431 9 12.5 9C14.1569 9 15.5 10.3431 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="15.5" y="9" width="2" height="2" rx="1" transform="rotate(-90 15.5 9)" fill="#000000"/>
+<rect x="16" y="8.5" width="1" height="1" rx="0.5" transform="rotate(-90 16 8.5)" stroke="#000000" stroke-linecap="round"/>
+</svg>
+</div>
+  </div>
+  <div class="rightfoot">
+    <div class="fit">
+    <div class="pg">
+      <div class="produkt">
+        <h3>Products</h3>
+        <ul class="list">
+          <li>Golden link</li>
+          <li>Internet payment gateway</li>
+          <li>gold card</li>
+          <li>obvious</li>
+          <li>refund</li>
+          <li>Early settlement</li>
+          <li>Share tomorrow</li>
+        </ul>
+      </div>
+      <div class="produkt">
+        <h3>Getting to know <br>Zarinpal</h3>
+        <ul class="list">
+          <li>Tariffs</li>
+          <li>about us</li>
+          <li>Frequently asked</li>
+          <li>questions</li>
+          <li>cooperation in sales</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rm">
+      <div class="reso">
+        <h3>More communication</h3>
+        <ul class="list">
+          <li>contact us</li>
+          <li>Rules and regulations</li>
+          <li>privacy</li>
+          <li>Zarinpal bug discovery</li>
+        </ul>
+      </div>
+      <div class="reso">
+        <h3>Resources</h3>
+        <ul class="list">
+          <li>Receive shaba number</li>
+          <li>Zarinbin</li>
+          <li>Developers</li>
+          <li>Blig</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="last">
+  <div class="foot">
+    <h3>Zarinpal 1389-1403</h3>
+    <p>C</p>
+  </div>
+</div>
+  </body> 
+</html>
