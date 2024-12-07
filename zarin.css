@@ -89,6 +89,7 @@
 .text p {
   color: #fff;
   text-align: end;
+  font-weight: 400;
 }
 .text h1 {
   color: #fff;
